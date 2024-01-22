@@ -1,6 +1,6 @@
 import { useForm} from "react-hook-form";
-import { saveEditedSong } from "../actions/song";
-import { editedSong } from "../actions/song";
+import { saveEditedSong } from "../store/actions/song";
+import { editedSong } from "../store/actions/song";
 const Edit = () => {
     let {register,handleSubmit } =useForm({
         defaultValues:editedSong
